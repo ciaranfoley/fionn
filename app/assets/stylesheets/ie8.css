@@ -1,0 +1,38 @@
+ul.latest-posts li .post-image,
+ul.latest-works li {
+	width: 87px;
+	height: 87px;
+}
+
+.sidebar aside ul.post-list li .post-image {
+	width: 50px;
+}
+
+.icon-hover li a.hover span, 
+#items .item a span, 
+.featured a span {
+	display: none;
+}
+
+.forms fieldset .btn-submit,
+.comment-form .btn-submit {
+	padding-top:0;
+}
+
+#comments .user {
+	width: 60px;
+}
+
+.searchform input {
+	padding: 6px 10px 4px;
+}
+
+a.button,
+.btn-submit,
+.filter li a,
+aside ul.tag-list li a,
+.page-navi ul li a{
+	padding-top:0;
+	padding-bottom: 2px;
+	height: 26px;
+}

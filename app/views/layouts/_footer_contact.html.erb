@@ -1,0 +1,30 @@
+<h2>Contact Us</h2>
+					<!-- Begin Form -->
+        			<div class="form-container">
+          				<div class="response"></div>
+          				<form class="forms" action="contact/form-handler.php" method="post">
+            				<fieldset>
+              					<ol>
+                					<li class="form-row text-input-row">
+                						<label>Name</label>
+                  						<input type="text" name="name" class="text-input" title="Name"/>
+                					</li>
+                					<li class="form-row text-input-row">
+                						<label>Email</label>
+                  						<input type="text" name="email" class="text-input required email" title="Email"/>
+                					</li>
+               						<li class="form-row text-area-row">
+                  						<textarea name="message" class="text-area required"></textarea>
+                					</li>
+                					<li class="form-row hidden-row">
+                  						<input type="hidden" name="hidden" value="" />
+                					</li>
+                					<li class="button-row">
+                  						<input type="submit" value="Submit" name="submit" class="btn-submit" />
+                					</li>
+              					</ol>
+              					<input type="hidden" name="v_error" id="v-error" value="Required" />
+              					<input type="hidden" name="v_email" id="v-email" value="Enter a valid email" />
+            				</fieldset>
+          				</form>
+        			</div>

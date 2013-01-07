@@ -1,0 +1,470 @@
+/*-----------------------------------------------------------------------------------*/
+/*	MEDIA QUERIES
+/*-----------------------------------------------------------------------------------*/
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#wrapper {
+		width: 100%;
+		padding-top: 35px;
+	}
+
+	footer#colophon .supplementary .inner {
+		width: 100%;
+	}
+
+	footer#colophon .site-generator .inner {
+		width: 100%;
+	}
+
+	ul.latest-works {
+		width: 366px;
+	}
+	
+	header #site-title {
+		float: none;
+		margin-bottom: 35px;
+	}
+	
+	header #site-title img {
+		display: inline;
+	}
+	
+	#access .menu {
+		float: none;
+		display: block;
+		position: relative;
+		right: inherit;
+		bottom: inherit;	
+	}
+
+	.item { 
+		width: 228px; 
+		margin: 0 17px 17px 0;
+	}
+	
+	.item-media {
+		float: none;
+		margin: 0;
+	}
+	
+	.item-details {
+		width: 100%;
+		float: none;
+	}
+	
+	.content {
+		width: 500px;
+	}
+
+	.sidebar {
+		width: 190px;
+	}
+	
+	#blog .featured img {
+		width: 160px;
+		height: auto;
+	}
+	
+	.forms fieldset .text-input,
+	.forms fieldset .text-area,
+	.comment-form input,
+	.comment-form textarea {
+		width: 96%;
+	}
+	
+	.content .related ul li {
+		width: 140px;
+		margin-left: 15px;
+	}
+
+}/* END Smaller than standard 960 (devices and browsers) */
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#wrapper {
+		width: 100%;
+	}
+
+	footer#colophon .supplementary .inner {
+		width: 100%;
+	}
+
+	footer#colophon .site-generator .inner {
+		width: 100%;
+	}
+	
+	.one-half, .one-third, .two-third, .three-fourth, .one-fourth, .one-fifth, .one-sixth {
+		margin: 0;
+		width: 100%;
+		margin-bottom: 20px;
+		float: none;
+	}
+	
+	footer .one-half, footer .one-third, footer .two-third, footer .three-fourth, footer .one-fourth, footer .one-fifth, footer .one-sixth {
+		margin-bottom: 60px;
+	}
+	
+	footer .last {
+		margin-bottom: 0;
+	}
+
+	ul.latest-works {
+		width: 366px;
+	}
+	
+	header #site-title {
+		float: none;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	
+	header #site-title img {
+		display: inline;
+	}
+
+	#access .menu ul#tiny {
+		display: none;
+	}
+	
+	#access .menu {
+		float: none;
+		display: block;
+		position: relative;
+		right: inherit;
+		bottom: inherit;
+		height: inherit;
+		background: none;
+		text-align: center;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+		box-shadow: none;
+		-webkit-box-shadow: none;	
+		cursor: default;	
+	}
+
+	.selectnav {
+		display: block;
+	}
+	
+	ul.latest-posts {
+		margin: 0 0 40px 0;
+	}
+	
+	.flex-container {
+		padding: 15px;
+	}
+	
+	.flex-direction-nav,
+	.flex-control-nav,
+	.flex-caption {
+		display: none;
+	}
+	
+	footer#colophon .site-generator .inner p {
+		float: none;
+		margin-bottom: 20px;
+	}
+	
+	.social {
+		float: none;
+	}
+
+	.item { 
+		width: 210px;
+	 }
+	 
+	 .box {
+		padding: 20px;
+	 }
+	 
+	 .item-media {
+		float: none;
+		margin: 0;
+		width: 100%;
+	}
+	
+	.item-meta h1 {
+		float: none;
+		max-width: inherit;
+		text-align: center;
+	}
+
+	.item-meta .item-controls {
+		float: none;
+		text-align: center;
+	}
+	
+	.item-media img,
+	.item-media .video {
+		margin-bottom: 20px;
+	}
+	
+	.item-details {
+		width: 100%;
+		float: none;
+	}
+	
+	.content {
+		width: 440px;
+		float: none;
+	}
+
+	.sidebar {
+		width: 440px;
+		float: none;
+	}
+	
+	.post {
+		padding: 20px;
+	}
+	
+	#blog .featured img {
+		width: 140px;
+		height: auto;
+	}
+	
+	#blog .featured {
+		margin-right: 20px;
+	}
+	
+	.searchform input {
+		width: 420px;
+		background-position: 415px center;
+	}
+	
+	.avatar {
+		display: none;
+		float: none;
+	}
+	
+	#comments ul.children {
+		padding:0 0 0 20px;
+	}
+	
+	.forms fieldset .text-input,
+	.forms fieldset .text-area,
+	.comment-form input,
+	.comment-form textarea {
+		width: 95%;
+	}
+	
+	.content .related ul li {
+		width: 124px;
+		margin-left: 14px;
+	}
+	
+	ul.tabs li {
+		float: none;
+		margin: 0;
+		display: block;
+	}
+
+	ul.tabs li a {
+		text-align: center;
+	}
+  
+}/* END Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+	#wrapper {
+		width: 100%;
+	}
+
+	footer#colophon .supplementary .inner {
+		width: 100%;
+	}
+
+	footer#colophon .site-generator .inner {
+		width: 100%;
+	}
+	
+	.one-half, .one-third, .two-third, .three-fourth, .one-fourth, .one-fifth, .one-sixth {
+		margin: 0;
+		width: 100%;
+		margin-bottom: 20px;
+		float: none;
+	}
+	
+	.last {
+		margin-bottom: 0;
+	}
+	
+	footer .one-half, footer .one-third, footer .two-third, footer .three-fourth, footer .one-fourth, footer .one-fifth, footer .one-sixth {
+		margin-bottom: 60px;
+	}
+	
+	footer .last {
+		margin-bottom: 0;
+	}
+
+	ul.latest-works {
+		width: 280px;
+	}
+	
+	header #site-title {
+		float: none;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	
+	header #site-title img {
+		display: inline;
+	}
+
+	#access .menu ul#tiny {
+		display: none;
+	}
+	
+	#access .menu {
+		float: none;
+		display: block;
+		position: relative;
+		right: inherit;
+		bottom: inherit;
+		height: inherit;
+		background: none;
+		text-align: center;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		cursor: default;		
+	}
+
+	.selectnav {
+		display: block;
+	}
+	
+	ul.latest-posts {
+		margin: 0 0 40px 0;
+	}
+	
+	.flex-container {
+		padding: 8px;
+	}
+	
+	.flex-direction-nav,
+	.flex-control-nav,
+	.flex-caption {
+		display: none;
+	}
+	
+	footer#colophon .site-generator .inner p {
+		float: none;
+		margin-bottom: 20px;
+	}
+	
+	.social {
+		float: none;
+	}
+	
+	.item { 
+		width: 278px;
+		margin-right: 0;
+	}
+	
+	.box {
+		padding: 20px;
+	}
+	
+	.item-meta h1 {
+		float: none;
+		max-width: inherit;
+		text-align: center;
+	}
+
+	.item-meta .item-controls {
+		float: none;
+		text-align: center;
+	}
+	
+	.item-media {
+		float: none;
+		margin: 0;
+		width: 100%;
+	}
+	
+	.item-media img,
+	.item-media .video {
+		margin-bottom: 20px;
+	}
+	
+	.item-details {
+		width: 100%;
+		float: none;
+	}
+	
+	.content {
+		width: 280px;
+		float: none;
+	}
+
+	.sidebar {
+		width: 280px;
+		float: none;
+	}
+	
+	.post {
+		padding: 20px;
+	}
+	
+	#blog .featured img {
+		float: none;
+		margin: 0 0 20px 0;
+	}
+
+	#blog .excerpt {
+		overflow: visible;
+	}
+	
+	.searchform input {
+		width: 260px;
+		background-position: 255px center;
+	}
+	
+	.avatar {
+		display: none;
+		float: none;
+	}
+	
+	#comments ul.children {
+		padding:0 0 0 20px;
+	}
+	
+	.forms fieldset .text-input,
+	.forms fieldset .text-area,
+	.comment-form input,
+	.comment-form textarea {
+		width: 92%;
+	}
+	
+	.content .related ul li {
+		width: 240px;
+		float: none;
+		margin: 20px 0 0 0;
+	}
+	
+	ul.tabs li {
+		float: none;
+		margin: 0;
+		display: block;
+	}
+
+	ul.tabs li a {
+		text-align: center;
+	}
+  
+}/* END Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */

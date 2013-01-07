@@ -1,0 +1,4 @@
+.forms fieldset .btn-submit,
+.comment-form .btn-submit {
+	padding-top:0;
+}
